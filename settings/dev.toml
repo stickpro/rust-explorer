@@ -1,0 +1,18 @@
+profile = "dev"
+
+[server]
+addr = "0.0.0.0"
+port = 8_080
+
+[db]
+host = "127.0.0.1"
+port = 5432
+username = "username"
+password = "password"
+database_name = "database_name"
+max_connections = 5
+
+[bitcoin]
+host = "localhost:8332"
+username = "rpc_login"
+password = "password"
